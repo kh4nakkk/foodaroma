@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedback.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li id="title">Food <br>Aroma</li>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+          <li><a href="#" id="signup">Sign up</a></li>
+          <li><a href="#" id="signup" style="color:rgb(250, 69, 69);">SIGN UP</a></li>
+        </ul>
+         </div>
+         <h1>Feedback Form</h1>
+         <form action="localhost:5500/feedback" method="post">
+            <p1>Your Name</p1> 
+            <p2>E-mail id</p2> <br>
+            <input type="text" name="name" id="NAME">
+            <input type="email" name="email" id="email"> <br><br>
+            <p3>Enter your Feedback</p3> <br>
+            <textarea name="feedback" id="feedback" rows="20" cols="100"></textarea>
+            <input type="submit" value="submit" id="submit">
+         </form>
+    
+</body>
+</html>

@@ -1,0 +1,76 @@
+body{
+    width: 1401px;
+    height: 1440px;
+    flex-shrink: 0;
+background-image:url(aboutbg.png);
+background-size: 1401px;
+color: #FFF;
+background-color: black;
+background-repeat: no-repeat;
+}
+.navbar ul{
+    list-style: none;
+    text-align:left;
+    margin-top: 50px;
+margin-right: 50px;
+} 
+.navbar li{
+    display: inline-block;
+    justify-content: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 25px;
+    margin: 10px;
+    font-weight: 600px;
+    font-family: Noto Serif;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: Noto Serif;
+}
+.navbar a:hover{
+    background-color: aliceblue;
+    border-radius: 15px;
+    color: black;
+}
+#title{
+font-family: Noto Serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px;
+margin-right: 300px;
+    margin-left: 50px;
+}
+.box{
+    width: 1000px;
+height: 1015px;
+flex-shrink: 0;
+border-radius: 30px;
+border: 1px solid #FFF;
+background: rgba(217, 217, 217, 0.00);
+margin-top: 100px;
+margin-bottom: 100px;
+margin-left: 230px;
+}
+h1{
+    color: #FFF;
+    font-family: Noto Serif;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.box p{
+    color: #FFF;
+font-family: Noto Serif;
+font-size: 19px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px;
+padding-left: 50px;
+padding-top: 15px;
+}

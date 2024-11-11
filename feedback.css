@@ -1,0 +1,141 @@
+body{
+    background-image: url(feedback\ background.png);
+    width: 1540px;
+height: 824px;
+flex-shrink: 0;
+background-size: 1681px;
+color: #FFF;
+background-repeat: no-repeat;
+}
+.navbar ul{
+    list-style: none;
+    text-align:left;
+    margin-top: 50px;
+margin-right: 100px;
+} 
+.navbar li{
+    display: inline-block;
+    justify-content: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 25px;
+    margin: 10px;
+    font-weight: 600px;
+    font-family: Noto Serif;
+    font-size: 20px;
+}
+.navbar a:hover{
+    background-color: aliceblue;
+    border-radius: 15px;
+    color: black;
+}
+#title{
+    margin-right: 200px;
+    margin-left: 50px;
+font-family: Noto Serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 400px;
+line-height: 35px;
+}
+#signup{
+    margin-left: 60px;
+}
+h1{
+    color: #FC3;
+font-family: "Noto Serif";
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px; /* 77.778% */
+margin-left: 240px;
+margin-bottom:50px ;
+}
+p1{
+    color: #FC3;
+font-family: "Noto Serif";
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px; /* 116.667% */
+margin-left: 400px;
+margin-right: 370px;
+}
+p2{
+    color: #FC3;
+font-family: "Noto Serif";
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px; /* 116.667% */
+margin-right: 400px;
+}
+p3{
+    color: #FC3;
+font-family: "Noto Serif";
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px; /* 116.667% */
+margin-left: 400px;
+}
+#submit{
+    display: flex;
+    padding: 8px 12px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 10px;
+    border-radius: 8px;
+background: #FC3;
+color: #121212;
+font-family: "Noto Serif";
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px; /* 116.667% */
+margin-top: 50px;
+margin-left: 1140px;
+
+}
+#NAME{
+    border-radius: 8px;
+border: 2px solid #FFF;
+width: 351px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-left: 400px;
+margin-right: 140px;
+background-color: transparent;
+color: #FFF;
+}
+#email{
+    
+width: 351px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+border: 2px solid #FFF;
+background-color: transparent;
+color: #FFF;
+
+}
+#feedback{
+    display: flex;
+width: 862px;
+height: 221px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+border: 2px solid #FFF;
+margin-left: 400px;
+background-color: transparent;
+color: #FFF;
+}
