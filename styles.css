@@ -193,3 +193,20 @@ section h1 {
     margin-top: 10px;
     border: black 5px solid;
 }
+
+::-webkit-scrollbar {
+    width: 15px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
